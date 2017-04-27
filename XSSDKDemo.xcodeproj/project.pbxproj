@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		141464371EB1DA4D0033A0E4 /* XSSDK.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 141464361EB1DA4D0033A0E4 /* XSSDK.xcassets */; };
 		142B440E1EB03A77003EFFFC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 142B440D1EB03A77003EFFFC /* main.m */; };
 		142B44111EB03A77003EFFFC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 142B44101EB03A77003EFFFC /* AppDelegate.m */; };
 		142B44141EB03A77003EFFFC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 142B44131EB03A77003EFFFC /* ViewController.m */; };
@@ -31,6 +32,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		141464361EB1DA4D0033A0E4 /* XSSDK.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = XSSDK.xcassets; sourceTree = "<group>"; };
 		142B44091EB03A77003EFFFC /* XSSDKDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XSSDKDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		142B440D1EB03A77003EFFFC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		142B440F1EB03A77003EFFFC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -98,6 +100,7 @@
 		142B44231EB03AFD003EFFFC /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				141464361EB1DA4D0033A0E4 /* XSSDK.xcassets */,
 				142B44241EB03AFD003EFFFC /* XSSDK.framework */,
 			);
 			path = Frameworks;
@@ -164,6 +167,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				142B441C1EB03A77003EFFFC /* LaunchScreen.storyboard in Resources */,
+				141464371EB1DA4D0033A0E4 /* XSSDK.xcassets in Resources */,
 				142B44191EB03A77003EFFFC /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
