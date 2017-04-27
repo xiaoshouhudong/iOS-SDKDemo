@@ -2,22 +2,22 @@
 小手互动iOSSDKDemo
 
 
-[![License MIT](https://img.shields.io/badge/license-MIT-green.svg?style=flat)](https://raw.githubusercontent.com/seven/HGSDKDemo/master/LICENSE)&nbsp;
+[![License MIT](https://img.shields.io/badge/license-MIT-green.svg?style=flat)](https://raw.githubusercontent.com/seven/XSSDKDemo/master/LICENSE)&nbsp;
 [![Support](https://img.shields.io/badge/support-iOS%208%2B%20-blue.svg?style=fla)](https://www.apple.com/nl/ios/)&nbsp;
 
 
 演示项目
 ==============
-查看并运行 `HGSDKDemo/HGSDKDemo.xcodeproj`
+查看并运行 `XSSDKDemo/XSSDKDemo.xcodeproj`
 
 
 使用
 ==============
 
 
-1. 下载 HGSDKDemo 文件夹内的所有内容。<br/>
+1. 下载 XSSDKDemo 文件夹内的所有内容。<br/>
 <img src="https://github.com/xiaoshouhudong/iOSSDKDemo/blob/master/Snapshots/FrameworkPath.png"><br/>
-2. 将 Frameworks 内的HGSDK.framework和HGSDK.xcassets添加(拖放)到你的工程目录中。
+2. 将 Frameworks 内的XSSDK.framework和XSSDK.xcassets添加(拖放)到你的工程目录中。
 <img src="https://github.com/xiaoshouhudong/iOSSDKDemo/blob/master/Snapshots/Framework.png"><br/>
 3. 在对应项目Targets下找到General，在Embedded Binaries链接 frameworks:
 <img src="https://github.com/xiaoshouhudong/iOSSDKDemo/blob/master/Snapshots/FrameworkLink.png"><br/>
