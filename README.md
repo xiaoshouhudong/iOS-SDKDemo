@@ -3,8 +3,7 @@
 
 
 [![License MIT](https://img.shields.io/badge/license-MIT-green.svg?style=flat)](https://raw.githubusercontent.com/seven/XSSDKDemo/master/LICENSE)&nbsp;
-[![Support](https://img.shields.io/badge/support-iOS%208%2B%20-blue.svg?style=fla)](https://www.apple.com/nl/ios/)&nbsp;
-[![Support](https://img.shields.io/badge/support-iOS%206%2B%20-blue.svg?style=flat)](https://www.apple.com/nl/ios/)&nbsp;
+[![Support](https://img.shields.io/badge/support-iOS%208%2B%20-blue.svg?style=flat)](https://www.apple.com/nl/ios/)&nbsp;
 
 
 演示项目
