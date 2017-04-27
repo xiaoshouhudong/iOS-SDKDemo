@@ -16,11 +16,11 @@
 
 
 1. 下载 HGSDKDemo 文件夹内的所有内容。<br/>
-<img src="https://raw.githubusercontent.com/huguan/HGSDKDemo/master/Snapshots/path.png"><br/>
+<img src="https://github.com/xiaoshouhudong/iOSSDKDemo/blob/master/Snapshots/FrameworkPath.png"><br/>
 2. 将 Frameworks 内的HGSDK.framework和HGSDK.xcassets添加(拖放)到你的工程目录中。
-<img src="https://raw.githubusercontent.com/huguan/HGSDKDemo/master/Snapshots/ProductPath.png"><br/>
+<img src="https://github.com/xiaoshouhudong/iOSSDKDemo/blob/master/Snapshots/Framework.png"><br/>
 3. 在对应项目Targets下找到General，在Embedded Binaries链接 frameworks:
-<img src="https://raw.githubusercontent.com/huguan/HGSDKDemo/master/Snapshots/framework.png"><br/>
+<img src="https://github.com/xiaoshouhudong/iOSSDKDemo/blob/master/Snapshots/FrameworkLink.png"><br/>
 
 4. 导入 `<XSSDK/XSSDK.h>`。
 5. 初始化SDK。并更改对应的参数
