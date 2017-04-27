@@ -1,0 +1,6 @@
+framework module XSSDK {
+  umbrella header "XSSDK.h"
+
+  export *
+  module * { export * }
+}
