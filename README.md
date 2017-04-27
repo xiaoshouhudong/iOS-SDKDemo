@@ -23,6 +23,9 @@
 <img src="https://github.com/xiaoshouhudong/iOSSDKDemo/blob/master/Snapshots/FrameworkLink.png"><br/>
 
 4. 导入 `<XSSDK/XSSDK.h>`。
+```
+#import <XSSDK/XSSDK.h>
+```
 5. 初始化SDK。并更改对应的参数
 
 #### 初始化SDK
