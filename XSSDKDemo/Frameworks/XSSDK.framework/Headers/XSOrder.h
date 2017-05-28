@@ -26,6 +26,11 @@
 @property (nonatomic, strong) NSString *serverId;
 
 /**
+ *  服务器名称
+ */
+@property (nonatomic, strong) NSString *serverName;
+
+/**
  *  角色Id
  */
 @property (nonatomic, strong) NSString *roleId;

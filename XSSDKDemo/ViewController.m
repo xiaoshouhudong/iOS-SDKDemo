@@ -54,16 +54,16 @@
 - (void)payButtonClick
 {
     XSOrder *order = [XSOrder new];
-    [order setServerId:@"serverId8"];
-    [order setAmount:1];
-    [order setRoleId:@"465689"];
-    [order setRoleName:@"锐雯"];
-    [order setProductName:@"冠军之刃"];
-    [order setProductDescription:@"皮肤"];
     [order setOrderId:[self getOrderStringByTime]];
-    [order setCustomInfo:@"断剑重铸之日 骑士归来之时"];
+    [order setAmount:1];
+    [order setServerId:@"serverId1"];
+    [order setServerName:@"紫陌红尘"];
+    [order setRoleId:@"465689"];
+    [order setRoleName:@"光辉"];
     [order setProductId:@"com.xshd.SDKDemo.6"];
-    [[XSSDK sharedXSSDK] xsPay:order];
+    [order setProductName:@"大元素"];
+    [order setProductDescription:@"皮肤"];
+    [order setCustomInfo:@"真是一个深思熟虑的选择"];
 }
 
 
