@@ -9,6 +9,7 @@
 #import <UIKit/UIKit.h>
 #import "XSUser.h"
 #import "XSOrder.h"
+#import "XSRole.h"
 
 //! Project version number for XSSDK.
 FOUNDATION_EXPORT double XSSDKVersionNumber;
@@ -84,6 +85,14 @@ typedef void (^logOutBlock)();
 
 
 /**
+ *  登陆成功上报角色
+ *
+ *  @param role    角色
+ */
+- (void)xsSaveRole:(XSRole *)role;
+
+
+/**
  *  注销用户登陆接口
  */
 - (void)xsLogOut;
@@ -92,5 +101,6 @@ typedef void (^logOutBlock)();
  *  注销事件回调
  */
 - (void)setLogOutBlock:(logOutBlock)logOutBlock;
+
 
 @end

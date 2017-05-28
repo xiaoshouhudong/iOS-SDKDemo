@@ -77,6 +77,15 @@
         NSLog(@"userId    -- %@", userId);
         NSLog(@"userName  -- %@", userName);
         NSLog(@"token     -- %@", token);
+        
+        
+        XSRole *role = [XSRole new];
+        [role setServerId:@"server1"];
+        [role setServerName:@"紫陌红尘"];
+        [role setRoleId:@"9527"];
+        [role setRoleName:@"凯特琳"];
+        [role setRoleLevel:1];
+        [[XSSDK sharedXSSDK] xsSaveRole:role];
     }];
 }
 
