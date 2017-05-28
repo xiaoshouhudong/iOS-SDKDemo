@@ -19,10 +19,11 @@
 <img src="https://github.com/xiaoshouhudong/iOSSDKDemo/blob/master/Snapshots/FrameworkPath.png"><br/>
 2. 将 Frameworks 内的XSSDK.framework和XSSDK.xcassets添加(拖放)到你的工程目录中。
 <img src="https://github.com/xiaoshouhudong/iOSSDKDemo/blob/master/Snapshots/Framework.png"><br/>
-3. 在对应项目Targets下找到General，在Embedded Binaries链接 frameworks:
+3. 在对应项目Targets下找到General，在Deployment Info下支持Device Orientation支持Portrail、Landscape Left、Landscape Right 3个方向。否则用户中心。游戏需自行限制横屏还是竖屏。
+   并且在Embedded Binaries和Linked Frameworks and Libraries链接 frameworks:
 <img src="https://github.com/xiaoshouhudong/iOSSDKDemo/blob/master/Snapshots/FrameworkLink.png"><br/>
 
-4. 导入 `<XSSDK/XSSDK.h>`。
+5. 导入 `<XSSDK/XSSDK.h>`。
 ```
 #import <XSSDK/XSSDK.h>
 ```
@@ -50,6 +51,14 @@
         NSLog(@"userId    -- %@", userId);
         NSLog(@"userName  -- %@", userName);
         NSLog(@"token     -- %@", token);
+
+        XSRole *role = [XSRole new];
+        [role setServerId:@"server1"];
+        [role setServerName:@"紫陌红尘"];
+        [role setRoleId:@"9527"];
+        [role setRoleName:@"凯特琳"];
+        [role setRoleLevel:1];
+        [[XSSDK sharedXSSDK] xsSaveRole:role];
     }];
 }
 ```
@@ -60,16 +69,16 @@
 - (void)payButtonClick
 {
     XSOrder *order = [XSOrder new];
-    [order setServerId:@"serverId1"];
+    [order setOrderId:[self getOrderStringByTime]];
     [order setAmount:1];
+    [order setServerId:@"serverId1"];
+    [order setServerName:@"紫陌红尘"];
     [order setRoleId:@"465689"];
     [order setRoleName:@"光辉"];
+    [order setProductId:@"com.xshd.SDKDemo.6"];
     [order setProductName:@"大元素"];
     [order setProductDescription:@"皮肤"];
-    [order setOrderId:[self getOrderStringByTime]];
     [order setCustomInfo:@"真是一个深思熟虑的选择"];
-    [order setProductId:@"com.xshd.SDKDemo.6"];
-    [[XSSDK sharedXSSDK] xsPay:order];
 }
 ```
 
