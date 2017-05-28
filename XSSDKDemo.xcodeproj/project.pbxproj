@@ -293,7 +293,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "iPhone Distribution: Qi Li (9GDFSXF66T)";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Qi Li (7JPDKA6T32)";
 				DEVELOPMENT_TEAM = 9GDFSXF66T;
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
@@ -303,10 +303,10 @@
 				INFOPLIST_FILE = XSSDKDemo/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.xshd.SDKDemo;
+				PRODUCT_BUNDLE_IDENTIFIER = com.xshd.SDKDemo1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "19a5e29f-bb88-4682-82df-e01466637e24";
-				PROVISIONING_PROFILE_SPECIFIER = "XSHD Common iOS Distribution";
+				PROVISIONING_PROFILE = "d12708b1-85a9-49e5-bd9a-b51ac6a9e87b";
+				PROVISIONING_PROFILE_SPECIFIER = "XSHD Common iOS Development";
 			};
 			name = Debug;
 		};
@@ -314,7 +314,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "iPhone Distribution: Qi Li (9GDFSXF66T)";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Qi Li (7JPDKA6T32)";
 				DEVELOPMENT_TEAM = 9GDFSXF66T;
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
@@ -324,10 +324,10 @@
 				INFOPLIST_FILE = XSSDKDemo/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.xshd.SDKDemo;
+				PRODUCT_BUNDLE_IDENTIFIER = com.xshd.SDKDemo1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "19a5e29f-bb88-4682-82df-e01466637e24";
-				PROVISIONING_PROFILE_SPECIFIER = "XSHD Common iOS Distribution";
+				PROVISIONING_PROFILE = "d12708b1-85a9-49e5-bd9a-b51ac6a9e87b";
+				PROVISIONING_PROFILE_SPECIFIER = "XSHD Common iOS Development";
 			};
 			name = Release;
 		};
