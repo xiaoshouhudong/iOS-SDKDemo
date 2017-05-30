@@ -36,7 +36,10 @@
  */
 @property (nonatomic, assign) NSUInteger roleLevel;
 
-
+/**
+ *  登陆时间
+ */
+@property (nonatomic, strong) NSString *loginTime;
 
 
 @end

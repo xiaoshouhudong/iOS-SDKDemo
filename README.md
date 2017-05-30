@@ -1,8 +1,5 @@
 # 小手iOS正版SDK客户端说明文档
-小手互动iOSSDKDemo
-
-
-[![License MIT](https://img.shields.io/badge/license-MIT-green.svg?style=flat)](https://raw.githubusercontent.com/seven/XSSDKDemo/master/LICENSE)&nbsp;
+[![License MIT](https://img.shields.io/badge/license-MIT-green.svg?style=flat)](https://github.com/xiaoshouhudong/iOS-SDKDemo/blob/master/LICENSE)&nbsp;
 [![Support](https://img.shields.io/badge/support-iOS%208%2B%20-blue.svg?style=flat)](https://www.apple.com/nl/ios/)&nbsp;
 
 
@@ -53,12 +50,21 @@
         NSLog(@"userName  -- %@", userName);
         NSLog(@"token     -- %@", token);
 
+        NSDate *date = [NSDate date];
+        NSDateFormatter *formatter = [[NSDateFormatter alloc] init];
+        [formatter setDateStyle:NSDateFormatterMediumStyle];
+        [formatter setTimeStyle:NSDateFormatterShortStyle];
+        [formatter setDateFormat:@"YYYY-MM-dd hh:mm:ss"];
+        NSString *dateTime = [formatter stringFromDate:date];
+
+        //登陆成功上报角色信息
         XSRole *role = [XSRole new];
         [role setServerId:@"server1"];
         [role setServerName:@"紫陌红尘"];
         [role setRoleId:@"9527"];
         [role setRoleName:@"凯特琳"];
         [role setRoleLevel:1];
+        [role setLoginTime:dateTime];
         [[XSSDK sharedXSSDK] xsSaveRole:role];
     }];
 }

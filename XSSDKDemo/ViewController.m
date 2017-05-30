@@ -78,13 +78,21 @@
         NSLog(@"userName  -- %@", userName);
         NSLog(@"token     -- %@", token);
         
+        NSDate *date = [NSDate date];
+        NSDateFormatter *formatter = [[NSDateFormatter alloc] init];
+        [formatter setDateStyle:NSDateFormatterMediumStyle];
+        [formatter setTimeStyle:NSDateFormatterShortStyle];
+        [formatter setDateFormat:@"YYYY-MM-dd hh:mm:ss"];
+        NSString *dateTime = [formatter stringFromDate:date];
         
+        //登陆成功上报角色信息
         XSRole *role = [XSRole new];
         [role setServerId:@"server1"];
         [role setServerName:@"紫陌红尘"];
         [role setRoleId:@"9527"];
         [role setRoleName:@"凯特琳"];
         [role setRoleLevel:1];
+        [role setLoginTime:dateTime];
         [[XSSDK sharedXSSDK] xsSaveRole:role];
     }];
 }
