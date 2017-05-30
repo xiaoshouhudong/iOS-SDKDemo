@@ -1,5 +1,5 @@
 # 小手iOS正版SDK客户端说明文档
-[![License MIT](https://img.shields.io/badge/license-MIT-green.svg?style=flat)](https://github.com/xiaoshouhudong/iOS-SDKDemo/blob/master/LICENSE)&nbsp;
+[![License MIT](https://img.shields.io/badge/license-MIT-green.svg?style=flat)](https://raw.githubusercontent.com/xiaoshouhudong/iOS-SDKDemo/master/LICENSE)&nbsp;
 [![Support](https://img.shields.io/badge/support-iOS%208%2B%20-blue.svg?style=flat)](https://www.apple.com/nl/ios/)&nbsp;
 
 
